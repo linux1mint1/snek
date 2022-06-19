@@ -1,0 +1,5 @@
+all:
+	g++ -c main.cpp
+	g++ main.o -o main -lsfml-graphics -lsfml-window -lsfml-system
+	x86_64-w64-mingw32-g++ main.cpp -o my_project.exe
+	./main
